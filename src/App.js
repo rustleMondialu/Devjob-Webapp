@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Searchbar from "./components/Searchbar/Searchbar";
+import data from "./data.json";
+import { useEffect, useState } from "react";
+import Cards from "./components/Cards/Cards";
+import "./App.scss";
 
 function App() {
+  const [devData, setDevData] = useState(data);
+
+  useEffect(() => {
+    console.log("data", data);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Searchbar />
+      <div className="app-dashboard-container">
+        {devData.map((item) => {
+          return <Cards key={item.id} item={item} />;
+        })}
+      </div>
+    </>
   );
 }
 

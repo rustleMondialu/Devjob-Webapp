@@ -1,0 +1,22 @@
+.searchbar-container {
+  display: flex;
+  margin-left: 165px;
+  margin-right: 165px;
+  margin-top: 24px;
+  border-radius: 6px;
+  justify-content: space-between;
+  column-gap: 26px;
+
+  .icon-input {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    flex-grow: 1;
+
+    input {
+      flex-grow: 1;
+      border: 0;
+      padding: 4px;
+    }
+  }
+}
