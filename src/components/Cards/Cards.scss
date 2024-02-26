@@ -1,3 +1,31 @@
 .cards-container {
   border: 1px solid black;
+  width: 350px;
+  height: 228px;
+  margin-bottom: 40px;
+
+  .item-logo {
+    margin-top: -25px;
+    margin-left: 32px;
+  }
+  .description-container {
+    margin: 24px 32px 32px 32px;
+    .mini-container {
+      display: flex;
+
+      .oval {
+        margin: 0 12px 0px 12px;
+      }
+    }
+
+    .position {
+      margin-top: 16px;
+    }
+    .company {
+      margin-top: 17px;
+    }
+    .location {
+      margin-top: 44px;
+    }
+  }
 }

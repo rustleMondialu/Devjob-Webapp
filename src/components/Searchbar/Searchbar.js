@@ -28,7 +28,9 @@ function Searchbar() {
         <input type="checkbox" id="fto" />
         <label htmlFor="fto">Full Time Only</label>
       </div>
-      <button onClick={submit}>Search</button>
+      <button onClick={submit} className="first-btn">
+        Search
+      </button>
     </div>
   );
 }

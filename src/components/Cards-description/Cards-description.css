@@ -1,0 +1,25 @@
+.flex_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topbar {
+  display: flex;
+  width: 730px;
+  height: 140px;
+  border: 1px solid black;
+  padding-top: -24px;
+}
+.topbar img {
+  width: 140px;
+  height: 140px;
+}
+
+.topingdetails {
+  display: flex;
+}
+.topingdetails img {
+  margin: 0 12px 0px 12px;
+}/*# sourceMappingURL=Cards-description.css.map */

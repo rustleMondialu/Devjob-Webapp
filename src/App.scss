@@ -1,5 +1,31 @@
+@import "/src/styles.scss";
 .app-dashboard-container {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  margin-top: 105px;
+  margin-left: 165px;
+}
+.first-btn {
+  width: 141px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: $violet;
+  :hover {
+    background-color: $light-violet;
+  }
+}
+.second-btn {
+  width: 141px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: $violet;
+  opacity: 0.1;
+  :hover {
+    opacity: 0.35;
+  }
+}
+.third-btn {
+  width: 147px;
+  height: 48px;
 }

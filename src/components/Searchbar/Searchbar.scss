@@ -1,3 +1,4 @@
+@import "/src/styles.scss";
 .searchbar-container {
   display: flex;
   margin-left: 165px;
@@ -18,5 +19,14 @@
       border: 0;
       padding: 4px;
     }
+  }
+}
+.first-btn {
+  width: 141px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: $violet;
+  :hover {
+    background-color: $light-violet;
   }
 }
