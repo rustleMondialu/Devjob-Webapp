@@ -24,10 +24,10 @@ function Cards({ carditem }) {
         <div
           className="position"
           onClick={() => {
-            navigate(`/cardsdescription/${carditem.id}`);
+            navigate(`/cardsdescription/${carditem.id}`, { replace: true });
           }}
         >
-          {carditem.position}
+          <h3>{carditem.position}</h3>
         </div>
 
         <div className="company">{carditem.company}</div>

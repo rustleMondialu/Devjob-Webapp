@@ -1,8 +1,9 @@
 .cards-container {
-  border: 1px solid black;
+  // border: 1px solid black;
   width: 350px;
   height: 228px;
   margin-bottom: 40px;
+  background-color: white;
 
   .item-logo {
     margin-top: -25px;
@@ -26,6 +27,7 @@
     }
     .location {
       margin-top: 44px;
+      color: #5964e0;
     }
   }
 }

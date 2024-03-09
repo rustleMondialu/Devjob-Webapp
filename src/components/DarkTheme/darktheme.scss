@@ -1,10 +1,19 @@
 @import "/src/styles.scss";
 .dark {
   background-color: $midnight;
-  color: #fff;
-  .app-dashboard-container {
-    background-color: $very-dark-blue;
-  }
+  color: white;
+  // color: #fff;
+}
+.changetheme_container {
+  display: flex;
+  gap: 16px;
+  width: 1100px;
+}
+.Sun {
+  margin-top: 6px;
+}
+.Moon {
+  margin-top: 5px;
 }
 
 .toggle-button {
@@ -44,16 +53,7 @@
   border-radius: 50%;
 }
 
-input:checked + .slider {
-  background-color: $midnight;
-}
-
 input:checked + .slider:before {
   transform: translateX(26px);
   background-color: $violet;
-  // content: "🌙";
 }
-
-// .slider:before {
-//   // content: "☀️";
-// }
