@@ -2,3 +2,79 @@
   margin: 0;
   padding: 0;
 }
+body {
+  /* width: 1440px; */
+  background-color: #f4f6f8;
+
+  font-family: "Kumbh Sans", sans-serif;
+}
+/* @media (min-width: 1440px) {
+  body {
+    font-family: "Kumbh Sans", sans-serif;
+    max-width: 1440px;
+    font-size: 16px;
+  }
+} */
+.navbar-container {
+  width: 100%;
+  background: url("/src/navbar-design.svg") no-repeat;
+
+  border-radius: 0px 0px 0px 100px;
+  /* padding: 44px 165px 84px 165px; */
+}
+h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 28px;
+}
+h2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+}
+h3 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 20px;
+}
+h4 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 14px;
+}
+.first-btn {
+  width: 141px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #5964e0;
+  color: white;
+}
+.first-btn:hover {
+  background-color: #939bf4;
+}
+.buttonstyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-btn {
+  width: 141px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #f4f6f8;
+  color: #5964e0;
+  text-decoration: none;
+}
+.second-btn:hover {
+  background-color: #8d9db0;
+}
+.linksite {
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .navbar-container {
+    background: url("src/tablet.svg") no-repeat;
+    width: 768px;
+  }
+}
+@media (max-width: 375px) {
+  .navbar-container {
+    background: url("src/telephone.svg") no-repeat;
+  }
+}

@@ -1,0 +1,28 @@
+.cards-container {
+  border: 1px solid black;
+  width: 350px;
+  height: 228px;
+  margin-bottom: 40px;
+}
+.cards-container .item-logo {
+  margin-top: -25px;
+  margin-left: 32px;
+}
+.cards-container .description-container {
+  margin: 24px 32px 32px 32px;
+}
+.cards-container .description-container .mini-container {
+  display: flex;
+}
+.cards-container .description-container .mini-container .oval {
+  margin: 0 12px 0px 12px;
+}
+.cards-container .description-container .position {
+  margin-top: 16px;
+}
+.cards-container .description-container .company {
+  margin-top: 17px;
+}
+.cards-container .description-container .location {
+  margin-top: 44px;
+}/*# sourceMappingURL=Cards.css.map */

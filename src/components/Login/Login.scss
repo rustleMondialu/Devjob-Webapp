@@ -1,0 +1,72 @@
+@import "../../styles.scss";
+.container_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  width: 1440px;
+  section {
+    margin-top: 100px;
+    background-color: $light-grey;
+    width: 480px;
+    height: 350px;
+  }
+}
+.login-type {
+  text-align: center;
+  button {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+.add-form {
+  margin-top: 40px;
+}
+.form-control {
+  margin: 20px 0;
+}
+input:focus {
+  outline: none;
+}
+button.btn {
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+}
+button.btn.selected {
+  background: $violet;
+  color: $white;
+}
+button.btn.login {
+  background: $light-grey;
+  color: $white;
+}
+input {
+  border-color: $violet;
+  font-size: 16px;
+  height: 22px;
+}
+.dark section {
+  background-color: $midnight;
+}
+.forgot-password {
+  margin-top: 12px;
+  color: $violet;
+  text-decoration: underline;
+  font-size: 14px;
+  cursor: pointer;
+}
+input[type="text"] {
+  margin-left: 28px;
+}
+.error {
+  text-align: center;
+  color: red;
+  margin-top: 8px;
+}

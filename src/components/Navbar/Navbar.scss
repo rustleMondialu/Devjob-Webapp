@@ -1,8 +1,17 @@
 @import "/src/styles.scss";
 .navbar-container {
-  background-color: $violet;
-  width: 100%;
-
-  border-radius: 0px 0px 0px 100px;
-  padding: 44px 165px 84px 165px;
+  display: flex;
+  height: 120px;
+}
+.toggle-container {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 40px;
+}
+.flexing {
+  flex-grow: 1;
+  margin-top: 40px;
+  margin-left: 60px;
 }
